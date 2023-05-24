@@ -2,6 +2,8 @@ let express = require("express")
 const { exitCode } = require("node:process")
 const {Worker} = require("node:worker_threads")
 
+// time curl --get http://localhost:3000/blocking
+
 let app = express()
 
 
